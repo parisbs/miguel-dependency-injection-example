@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tu nombre"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/saludame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saludame"
+        app:layout_constraintTop_toBottomOf="@id/nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/claseA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase A"
+        app:layout_constraintTop_toBottomOf="@id/saludame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/claseB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase B"
+        app:layout_constraintTop_toBottomOf="@id/claseA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/claseC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase C"
+        app:layout_constraintTop_toBottomOf="@id/claseB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/claseD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase D"
+        app:layout_constraintTop_toBottomOf="@id/claseC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/claseE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase E"
+        app:layout_constraintTop_toBottomOf="@id/claseD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
